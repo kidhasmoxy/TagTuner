@@ -1,5 +1,5 @@
 blueprint:
-  name: TagTuner music player for NFC tags automation
+  name: TagTuner music player for NFC tags automation - Sonos Clicks
   description: https://github.com/luka6000/TagTuner#using-tagtuner
   author: LukaGra v250503
   domain: automation
