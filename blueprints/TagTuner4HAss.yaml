@@ -373,7 +373,7 @@ actions:
           - condition: template
             value_template: '{{ action == "clickDouble" }}'
         sequence:
-          - action: media_player.media_play_pause
+          - action: media_player.media_next_track
             target:
               entity_id: !input httpplayer
         alias: clickDouble
@@ -381,7 +381,7 @@ actions:
           - condition: template
             value_template: '{{ action == "clickSingle" }}'
         sequence:
-          - action: media_player.media_next_track
+          - action: media_player.media_play_pause
             target:
               entity_id: !input httpplayer
         alias: clickSingle
